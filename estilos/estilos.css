@@ -348,6 +348,37 @@ footer p{
     margin-left: 40px;
 }
 
+/*animaciones y transiciones*/
+
+#gallery .g6 img{
+    transition: all 0.5s ease;
+    opacity: 0.5;
+}
+
+#gallery .g6 img:hover{
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+#gallery .g3 img,
+#gallery .g4 img,
+#gallery .g2 img,
+#gallery .g1 img,
+#gallery .g5 img{
+    transition: all 0.5s ease;
+    opacity: 0.5;
+}
+
+#gallery .g1 img:hover,
+#gallery .g2 img:hover,
+#gallery .g3 img:hover,
+#gallery .g4 img:hover,
+#gallery .g5 img:hover{
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+
 /*responsive*/
 /*desktop*/
 @media only screen and (max-width:1920px){
