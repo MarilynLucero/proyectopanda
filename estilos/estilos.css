@@ -376,7 +376,8 @@ footer p{
 #gallery .g5 img:hover{
     opacity: 1;
     transform: scale(1.15);
-}
+} 
+
 
 
 /*responsive*/
